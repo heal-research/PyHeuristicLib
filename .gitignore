@@ -1,3 +1,7 @@
 src/pyheuristiclib/heuristicLib/obj
 dist
 src/pyheuristiclib.egg-info
+src/pyheuristiclib/pyheuristiclib.sln
+src/pyheuristiclib/heuristiclib/__pycache__
+src/pyheuristiclib/test.ipynb
+src/pyheuristiclib/heuristiclib/test.py

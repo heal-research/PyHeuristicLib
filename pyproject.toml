@@ -27,11 +27,4 @@ package-dir = {"" = "src"}
 where = ["src"]
 
 [tool.setuptools.package-data]
-"pyheuristiclib.heuristiclib" = [
-  "*.dll",
-  "**/*.dll",
-  "*.json",
-  "**/*.json",
-  "*.deps.json",
-  "*.runtimeconfig.json"
-]
+"pyheuristiclib" = ["heuristiclib/*.dll", "heuristiclib/*.json"]
