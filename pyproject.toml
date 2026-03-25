@@ -1,6 +1,6 @@
 [project]
 name = "pyheuristiclib"
-version = "0.1.4.6"
+version = "0.1.4.7"
 description = "Python bindings for the HeuristicLib"
 authors = [
     { name="HEAL"}
