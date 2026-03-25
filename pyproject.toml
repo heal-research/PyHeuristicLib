@@ -1,6 +1,6 @@
 [project]
 name = "pyheuristiclib"
-version = "0.1.4.3"
+version = "0.1.4.5"
 description = "Python bindings for the HeuristicLib"
 authors = [
     { name="HEAL"}
@@ -27,11 +27,11 @@ package-dir = {"" = "src"}
 where = ["src"]
 
 [tool.setuptools.package-data]
-pyheuristiclib = [
-  "heuristicLib/bin/Release/net10.0/publish/*.dll",
-  "heuristicLib/bin/Release/net10.0/publish/**/*.dll",
-  "heuristicLib/bin/Release/net10.0/publish/*.json",
-  "heuristicLib/bin/Release/net10.0/publish/**/*.json",
-  "heuristicLib/bin/Release/net10.0/publish/*.deps.json",
-  "heuristicLib/bin/Release/net10.0/publish/*.runtimeconfig.json",
+pyheuristiclib.heuristiclib = [
+  "*.dll",
+  "**/*.dll",
+  "*.json",
+  "**/*.json",
+  "*.deps.json",
+  "*.runtimeconfig.json",
 ]

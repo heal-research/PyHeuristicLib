@@ -1,0 +1,1 @@
+dotnet publish heuristiclib/csProject.csproj -c Release -o ./heuristiclib
