@@ -5,14 +5,14 @@ load("coreclr")
 import clr
 import System
 
-import pyheuristiclib.lib
+import InteroptUtil
 
 # Load the DLL from the package
 def load_dotnet_dll():
-    dll_name = "HeuristicLib.dll"
+    dll_name = "HEAL.HeuristicLib.Core.dll"
 
     # Use importlib.resources to find the DLL inside the package
-    with pkg_resources.path(pyheuristiclib.lib, dll_name) as dll_path:
+    with pkg_resources.path(pyheuristiclib, dll_name) as dll_path:
         abs_path = str(dll_path.resolve())
         System.Reflection.Assembly.LoadFrom(abs_path)
         clr.AddReference(dll_name.split(".")[0])
