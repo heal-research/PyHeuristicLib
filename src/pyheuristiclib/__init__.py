@@ -5,7 +5,7 @@ load("coreclr")
 import clr
 import System
 
-import InteroptUtil
+from . import InteroptUtil
 
 # Load the DLL from the package
 def load_dotnet_dll():
