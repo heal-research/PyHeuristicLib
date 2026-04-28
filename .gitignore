@@ -6,3 +6,4 @@ src/pyheuristiclib/heuristiclib/__pycache__
 src/pyheuristiclib/test.ipynb
 src/pyheuristiclib/heuristiclib/test.py
 src/pyheuristiclib/heuristiclib/bin/
+*.pyc

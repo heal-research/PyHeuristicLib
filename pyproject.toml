@@ -16,6 +16,15 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/heal-research/PyHeuristicLib"
 
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
+pythonpath = ["src"]
+
 [build-system]
 requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
