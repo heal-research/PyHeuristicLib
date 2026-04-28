@@ -1,6 +1,6 @@
 [project]
 name = "pyheuristiclib"
-version = "0.1.4.9"
+dynamic = ["version"]
 description = "Python bindings for the HeuristicLib"
 authors = [
     { name="HEAL"}
@@ -26,7 +26,7 @@ testpaths = ["test"]
 pythonpath = ["src"]
 
 [build-system]
-requires = ["setuptools>=77.0.3"]
+requires = ["setuptools>=77.0.3", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
@@ -37,3 +37,7 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 "pyheuristiclib" = ["heuristiclib/*.dll", "heuristiclib/*.json"]
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "node-and-date"

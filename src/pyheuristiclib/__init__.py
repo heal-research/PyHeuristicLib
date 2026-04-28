@@ -5,11 +5,20 @@ import importlib
 import importlib.resources as pkg_resources
 from pathlib import Path
 
+from importlib.metadata import version, PackageNotFoundError
+
+try:
+    __version__ = version("pyheuristiclib")
+except PackageNotFoundError:
+    __version__ = "0.0.0-dev"
+
 from pythonnet import load
 load("coreclr")
 
 import clr
 import System
+
+
 
 
 DOTNET_ROOT_NS = "HEAL.HeuristicLib"
