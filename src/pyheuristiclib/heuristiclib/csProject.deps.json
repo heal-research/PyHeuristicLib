@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "csProject/1.0.0": {
         "dependencies": {
-          "HEAL.HeuristicLib.Core": "0.1.4"
+          "HEAL.HeuristicLib.Core": "0.1.5-alpha"
         },
         "runtime": {
           "csProject.dll": {}
@@ -38,19 +38,19 @@
           }
         }
       },
-      "HEAL.HeuristicLib.Abstractions/0.1.4": {
+      "HEAL.HeuristicLib.Abstractions/0.1.5-alpha": {
         "runtime": {
           "lib/net10.0/HEAL.HeuristicLib.Abstractions.dll": {
             "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.4.11416"
+            "fileVersion": "0.1.5.5917"
           }
         }
       },
-      "HEAL.HeuristicLib.Core/0.1.4": {
+      "HEAL.HeuristicLib.Core/0.1.5-alpha": {
         "dependencies": {
           "AutoDiff": "1.2.2",
           "Generator.Equals": "3.3.0",
-          "HEAL.HeuristicLib.Abstractions": "0.1.4",
+          "HEAL.HeuristicLib.Abstractions": "0.1.5-alpha",
           "MathNet.Numerics": "6.0.0-beta2",
           "Microsoft.Extensions.Caching.Memory": "10.0.2",
           "System.Linq.Async": "7.0.0",
@@ -59,7 +59,7 @@
         "runtime": {
           "lib/net10.0/HEAL.HeuristicLib.Core.dll": {
             "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.4.11416"
+            "fileVersion": "0.1.5.5917"
           }
         }
       },
@@ -200,19 +200,19 @@
       "path": "generator.equals.runtime/3.3.0",
       "hashPath": "generator.equals.runtime.3.3.0.nupkg.sha512"
     },
-    "HEAL.HeuristicLib.Abstractions/0.1.4": {
+    "HEAL.HeuristicLib.Abstractions/0.1.5-alpha": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NRMdLlepGPPY3/3WNvqoMt/tjiMyEwd0PEVU0r9P+cPbzX0ZpxSXBBUuCcWQF56MGVzazseobGjK2u2xJen5mw==",
-      "path": "heal.heuristiclib.abstractions/0.1.4",
-      "hashPath": "heal.heuristiclib.abstractions.0.1.4.nupkg.sha512"
+      "sha512": "sha512-SuZqKBRzsEuTzY5c5nBgd7LGVrtVpg5WhxOHLMZacHvcf7FAJf5iSehBPrfNubDVlYp1eGb5Hl6Q1DKqLKwKPg==",
+      "path": "heal.heuristiclib.abstractions/0.1.5-alpha",
+      "hashPath": "heal.heuristiclib.abstractions.0.1.5-alpha.nupkg.sha512"
     },
-    "HEAL.HeuristicLib.Core/0.1.4": {
+    "HEAL.HeuristicLib.Core/0.1.5-alpha": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-J554PphDZZA2bXYiM4uyKKGoCfuvJhCIbmC1ZrvAuCjmtFAeVyEM2nHpxRclsfVbl3gPOhkfomd8h3GUilZaAA==",
-      "path": "heal.heuristiclib.core/0.1.4",
-      "hashPath": "heal.heuristiclib.core.0.1.4.nupkg.sha512"
+      "sha512": "sha512-LD5iOI/p8Sa2PhJfcvD/pukBCYluJHFMVau/p0seFsxG54x6d5RXfPI2csbJY9WLLl2rUlKdcgCyb24q71nJdg==",
+      "path": "heal.heuristiclib.core/0.1.5-alpha",
+      "hashPath": "heal.heuristiclib.core.0.1.5-alpha.nupkg.sha512"
     },
     "MathNet.Numerics/6.0.0-beta2": {
       "type": "package",

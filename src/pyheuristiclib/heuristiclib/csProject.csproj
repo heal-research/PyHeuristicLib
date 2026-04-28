@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HEAL.HeuristicLib.Core" Version="0.1.4" />
+    <PackageReference Include="HEAL.HeuristicLib.Core" Version="0.1.5-alpha" />
   </ItemGroup>
 
 </Project>
